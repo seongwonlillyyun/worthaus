@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+body{
+  background-color: #F0ECE4;
+}
+iframe {
+  border: none;
+}
+
+img, svg {
+  display: block;
+}

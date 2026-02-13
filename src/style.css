@@ -1,0 +1,46 @@
+.header{
+    background-color: var(--blue);
+    width: 100%; 
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+.headertitle{
+    margin: 0;
+    font-size: 3rem;
+    font-weight:bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:#F4B223
+}
+.mainpic{
+  border: 8px solid var(--blue);
+  margin: 30px auto;
+  padding: 10px;
+  background: white;
+  width: 500px;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  bottom: -15px;
+  width: 80%;
+  height: 40px;
+  background-color: var(--red);
+}
+.search{
+/*     border: 1px solid red; */
+    width: 40%;
+    margin: 10px auto;
+}
+.searchbar{
+    width: 400px;
+    height: 40px;
+}
+.searchbtn{
+    background-color: var(--red);
+    border-radius: 0;
+    width: 100px;
+}
